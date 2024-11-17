@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <!-- Main Table -->
+    <table border="1" cellspacing="1" width="100%" height="100%">
+        <tr>
+            <th><img src="dulogo.jpg" alt="DU Logo"></th>
+            <th colspan="3"><img src="iitban.gif" width="1200" alt="IIT Banner"></th>
+            <th colspan="2"><img src="iitlogo-blue.png" alt="IIT Logo"></th>
+        </tr>
+
+        <tr>
+            <td><a href="homepage.html">Home</a></td>
+            <td><a href="linebreaks.html">Line Breaks</a></td>
+            <td><a href="tags.html">Tags</a></td>
+            <td><a href="lists.html">Lists</a></td>
+            <td><a href="tables.html">Tables</a></td>
+            <td><a href="forms.html">Forms</a></td>
+        </tr>
+
+        <!-- Form and Useful Links Row -->
+        <tr>
+            <!-- Form Section -->
+            <td colspan="4">
+                <table border="1" cellspacing="2" align="center" width="60%">
+                    <tr>
+                        <td>
+                            <form>
+                                <div>
+                                    <label for="fullname">Full Name:</label>
+                                    <input id="fullname" name="fullname" placeholder="Fullname" type="text">
+                                </div><br>
+                                <div>
+                                    <label for="email">Email:</label>
+                                    <input id="email" name="email" placeholder="Email" type="email">
+                                </div><br>
+                                <div>
+                                    <label>Gender:</label>
+                                    <input name="gender" type="radio" value="male"> Male
+                                    <input name="gender" type="radio" value="female"> Female
+                                </div><br>
+                                <div>
+                                    <label>Language:</label>
+                                    <input name="language" type="checkbox" value="Bangla"> Bangla
+                                    <input name="language" type="checkbox" value="English"> English
+                                </div><br>
+                                <div>
+                                    <label>Country:</label>
+                                    <select name="country">
+                                        <option>Bangladesh</option>
+                                        <option>India</option>
+                                        <option>Sri Lanka</option>
+                                        <option>Japan</option>
+                                    </select>
+                                </div><br>
+                                <div>
+                                    <label for="password">Password:</label>
+                                    <input id="password" name="password" placeholder="Password" type="password">
+                                </div><br>
+                                <div>
+                                    <label for="confirm-password">Confirm Password:</label>
+                                    <input id="confirm-password" name="confirm-password" placeholder="Confirm Password" type="password">
+                                </div><br>
+
+                                <input type="submit" value="Submit">
+                                <input type="reset" value="Reset">
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+            <!-- Useful Links Section -->
+            <td colspan="2">
+                <p><u>Useful Links</u></p>
+                <p>
+                    <a href="https://www.du.ac.bd/">University of Dhaka</a><br>
+                    <a href="https://www.iit.du.ac.bd/">IIT</a><br>
+                    <a href="https://www.ugc.gov.bd/">UGC</a><br>
+                    <a href="https://ictd.gov.bd/">ICT Ministry</a>
+                </p>
+            </td>
+        </tr>
+
+        <!-- Footer Row -->
+        <tr>
+            <td align="center" colspan="6">
+                <h5>Copyright 2024 &copy; Shakib</h5>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
