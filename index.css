@@ -1,0 +1,29 @@
+*{
+    background-color:teal ;
+}
+h1,h2,h3,h4,h5 {
+  color:blue;
+  
+}
+p{
+    color:red;
+    text-align: center;
+}
+body{
+    margin:0;
+    padding: 0;
+    border-top: 1px solid #ff0;
+}
+.intro{
+    color:rgb(0, 255, 85);
+    font: 12px verdana,sans-serif;
+    margin: 0px;
+    text-align:left;
+}
+
+#intro{
+    color:rgb(25, 0, 255);
+    font: 50px verdana,sans-serif;
+    margin: 0px;
+    text-align:right;
+}
