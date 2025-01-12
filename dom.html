@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My first page</h1>
+    
+    <p id="intro">Finding HTML Elements by Id</p>
+    <p>This example demonstrates the <b>getElementById</b> method.</p>
+    <p class="para">hello guys</p>
+    <div>hello world</div>
+    
+    <p id="demo"></p>
+    
+    <script>
+    // Correctly get the element by ID
+    const element = document.getElementById("intro");
+
+    // Correct usage of setAttribute
+    element.setAttribute("style", "color: red;");
+
+    element.style.color="blue";
+
+    // Use getElementsByClassName correctly and access the first element
+    const element2 = document.getElementsByClassName("para")[0];
+
+    // Use getElementsByTagName correctly and access the first element
+    const element3 = document.getElementsByTagName("div")[0];
+
+    element4=document.querySelectorAll("p.para")[0];
+    
+    // Combine the innerHTML values and display them in the "demo" paragraph
+    document.getElementById("demo").innerHTML = 
+        element2.innerHTML + " " + element.innerHTML + " " + element3.innerHTML+element4.innerHTML;
+    </script>
+</body>
+</html>
